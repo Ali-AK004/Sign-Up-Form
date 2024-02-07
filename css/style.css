@@ -30,7 +30,7 @@ body {
   overflow: hidden;
   background-color: var(--white);
   box-shadow: 0 0 20px rgba(0, 0, 0, 10%);
-  margin-inline: 20px;
+  margin-inline: 10px;
   .left-side {
     background-color: #33d2fd;
     display: flex;
@@ -194,7 +194,7 @@ body {
     margin-bottom: 30px;
   }
   .container .right-side {
-    padding: 0 1rem 3rem;
+    padding: 0 1.5rem 3rem;
   }
   .container .right-side .row:last-of-type .sub-type {
     margin-inline: auto;
