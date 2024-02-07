@@ -19,10 +19,15 @@
         <img src="Assets/shape.png" alt="" />
       </section>
       <section class="right-side">
-        <form action="#">
+        <form action="http://localhost:5000/submit" method="post">
           <section class="row">
             <label>Name</label>
-            <input type="text" placeholder="Luke Skywalker" />
+            <input
+              type="text"
+              placeholder="Luke Skywalker"
+              name="name"
+              required
+            />
           </section>
           <article class="row">
             <label>Gender</label>
@@ -42,19 +47,24 @@
           </article>
           <article class="row">
             <label>Date Of Birth</label>
-            <input type="text" placeholder="May 25, 1977" />
+            <input type="text" placeholder="May 25, 1977" name="dob" />
           </article>
           <article class="row">
             <label>Email</label>
-            <input type="email" placeholder="lukeskywalker@galaxy.com" />
+            <input
+              type="email"
+              placeholder="lukeskywalker@galaxy.com"
+              name="email"
+              required
+            />
           </article>
           <article class="row">
             <label>City</label>
-            <input type="text" placeholder="Moisture Farm" />
+            <input type="text" placeholder="Moisture Farm" name="city" />
           </article>
           <article class="row">
             <label>Country</label>
-            <input type="text" placeholder="Tatooine" />
+            <input type="text" placeholder="Tatooine" required name="country" />
           </article>
           <article class="row">
             <h1>Subscription</h1>
