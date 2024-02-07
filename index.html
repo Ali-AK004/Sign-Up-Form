@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <title>Sign Up Form | AliProg</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="left-side">
+        <img src="Assets/shape.png" alt="" />
+      </section>
+      <section class="right-side">
+        <form action="#">
+          <section class="row">
+            <label>Name</label>
+            <input type="text" placeholder="Luke Skywalker" />
+          </section>
+          <article class="row">
+            <label>Gender</label>
+            <div class="male-female">
+              <!-- don't u dare forget the {name=""} attribute again = 5 hours = -->
+              <input type="radio" id="Male" name="gender" checked />
+              <label for="Male">
+                <i class="fa-solid fa-mars"></i>
+                Male
+              </label>
+              <input type="radio" id="Female" name="gender" />
+              <label for="Female">
+                <i class="fa-solid fa-venus"></i>
+                Female
+              </label>
+            </div>
+          </article>
+          <article class="row">
+            <label>Date Of Birth</label>
+            <input type="text" placeholder="May 25, 1977" />
+          </article>
+          <article class="row">
+            <label>Email</label>
+            <input type="email" placeholder="lukeskywalker@galaxy.com" />
+          </article>
+          <article class="row">
+            <label>City</label>
+            <input type="text" placeholder="Moisture Farm" />
+          </article>
+          <article class="row">
+            <label>Country</label>
+            <input type="text" placeholder="Tatooine" />
+          </article>
+          <article class="row">
+            <h1>Subscription</h1>
+            <article class="sub-type">
+              <button type="button">Bronze</button>
+              <button type="button">Silver</button>
+              <button type="button">Gold</button>
+            </article>
+          </article>
+          <div class="save-cancel">
+            <input type="reset" value="Cancel" />
+            <input type="submit" value="Save" />
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
